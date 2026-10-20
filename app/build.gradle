@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.tcl.airplaypreview'
+    compileSdk 35
+    defaultConfig { applicationId 'com.tcl.airplaypreview'; minSdk 26; targetSdk 28; versionCode 1; versionName '0.1-ui-preview' }
+}
